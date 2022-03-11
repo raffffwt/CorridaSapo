@@ -5,8 +5,6 @@ import java.util.Random;
 public class CorridaSapo extends Thread {
     private volatile Long endTime = null;
     int posicao = 0;
-    int rank = 0;
-    boolean chegou;
     int dist = 10;
 
     @Override
